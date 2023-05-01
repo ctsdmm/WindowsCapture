@@ -38,3 +38,4 @@ auto GetDXGIInterfaceFromObject(winrt::Windows::Foundation::IInspectable const& 
 	winrt::check_hresult(access->GetInterface(winrt::guid_of<T>(), result.put_void()));
 	return result;
 }
+
