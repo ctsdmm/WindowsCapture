@@ -8,7 +8,10 @@ int main()
 {
 	WindowsCaptureBase cap;
 
-	HWND hwnd = FindWindow(NULL, L"坎特伯雷公主与骑士唤醒冠军之剑的奇幻冒险");
+	// 获取窗口句柄  这种方式只能获取  win32 窗口
+	HWND hwnd = FindWindow(NULL, NULL);
+	// 还有另一种方式可以枚举所有桌面上可以用本方法进行截图的窗口
+
 
 	cap.SetCaptureTarget(hwnd);
 
