@@ -1,6 +1,12 @@
 # WindowsCapture
 高性能windows截图仓库
 
+# 环境
+windows10+
+opencv
+c++17
+
+# 说明
 
 首先通过WindowsCaptureBase类来进行服务初始化
 再使用SetCaptureTarget(HWND)设置要进行截图的窗口句柄
