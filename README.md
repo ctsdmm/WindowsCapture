@@ -9,3 +9,6 @@
 注意！获取的mat需要判断data是否为null才能使用。
 
 使用SetFps(int)方法可以设置截图帧率，默认为60hz
+
+
+可以使用另一个存储库来更好的寻找窗口句柄 [Here](https://github.com/ctsdmm/FindWindowsHwnd)
